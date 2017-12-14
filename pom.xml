@@ -2,28 +2,39 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>amir</groupId>
-	<artifactId>maven.Calc</artifactId>
+	<groupId>com.example.maven</groupId>
+	<artifactId>calculator-amira</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>maven.Calc</name>
+	<name>calculator-amira</name>
 	<url>http://maven.apache.org</url>
-	<!-- these are the properties of our pom.xml -->
+
+	<!-- These are the properties of our pom.xml -->
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<junit.version>4.11</junit.version>
 		<java.version>1.8</java.version>
-		<jacoco.version>0.7.9</jacoco.version>
+		<jacoco.version>0.7.7.201606060606</jacoco.version>
+		<surefire.version>2.17</surefire.version>
+		<testng.version>6.8.8</testng.version>
 	</properties>
-	<!-- these are the dependencies of out pom.xml -->
+
+
+	<!-- These are the dependencies of out pom.xml -->
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.11</version>
+			<version>${junit.version}</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>${testng.version}</version>
+			<scope>test</scope>
+		</dependency>		
 	</dependencies>
 
 	<build>
@@ -56,11 +67,13 @@
 					</execution>
 				</executions>
 			</plugin>
+			
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>${surefire.version}</version>
+			</plugin>
 		</plugins>
 	</build>
 </project>
 
-
-  
-  
-  

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="20" passed="20">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="329" started-at="2017-12-14T10:32:31Z" finished-at="2017-12-14T10:32:31Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="329" started-at="2017-12-14T10:32:31Z" finished-at="2017-12-14T10:32:31Z">
+      <class name="AdvanceTest.AdvanceTest">
+        <test-method status="PASS" signature="negativSquAdvance()[pri:0, instance:negativSquAdvance(AdvanceTest.AdvanceTest)]" name="negativSquAdvance" duration-ms="38" started-at="2017-12-14T11:32:31Z" finished-at="2017-12-14T11:32:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativSquAdvance -->
+        <test-method status="PASS" signature="cosAdvance()[pri:0, instance:cosAdvance(AdvanceTest.AdvanceTest)]" name="cosAdvance" duration-ms="23" started-at="2017-12-14T11:32:31Z" finished-at="2017-12-14T11:32:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cosAdvance -->
+        <test-method status="PASS" signature="sinAdvancet()[pri:0, instance:sinAdvancet(AdvanceTest.AdvanceTest)]" name="sinAdvancet" duration-ms="14" started-at="2017-12-14T11:32:31Z" finished-at="2017-12-14T11:32:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sinAdvancet -->
+        <test-method status="PASS" signature="negaticcosAdvance()[pri:0, instance:negaticcosAdvance(AdvanceTest.AdvanceTest)]" name="negaticcosAdvance" duration-ms="11" started-at="2017-12-14T11:32:31Z" finished-at="2017-12-14T11:32:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negaticcosAdvance -->
+        <test-method status="PASS" signature="NegativCubAdvance()[pri:0, instance:NegativCubAdvance(AdvanceTest.AdvanceTest)]" name="NegativCubAdvance" duration-ms="10" started-at="2017-12-14T11:32:31Z" finished-at="2017-12-14T11:32:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NegativCubAdvance -->
+        <test-method status="PASS" signature="squAdvance()[pri:0, instance:squAdvance(AdvanceTest.AdvanceTest)]" name="squAdvance" duration-ms="16" started-at="2017-12-14T11:32:31Z" finished-at="2017-12-14T11:32:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- squAdvance -->
+        <test-method status="PASS" signature="negativSinAdvancet()[pri:0, instance:negativSinAdvancet(AdvanceTest.AdvanceTest)]" name="negativSinAdvancet" duration-ms="9" started-at="2017-12-14T11:32:31Z" finished-at="2017-12-14T11:32:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativSinAdvancet -->
+        <test-method status="PASS" signature="squrtAdvance()[pri:0, instance:squrtAdvance(AdvanceTest.AdvanceTest)]" name="squrtAdvance" duration-ms="8" started-at="2017-12-14T11:32:31Z" finished-at="2017-12-14T11:32:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- squrtAdvance -->
+        <test-method status="PASS" signature="eAdvance()[pri:0, instance:eAdvance(AdvanceTest.AdvanceTest)]" name="eAdvance" duration-ms="9" started-at="2017-12-14T11:32:31Z" finished-at="2017-12-14T11:32:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eAdvance -->
+        <test-method status="PASS" signature="cubAdvance()[pri:0, instance:cubAdvance(AdvanceTest.AdvanceTest)]" name="cubAdvance" duration-ms="7" started-at="2017-12-14T11:32:31Z" finished-at="2017-12-14T11:32:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cubAdvance -->
+        <test-method status="PASS" signature="negativSqurtAdvance()[pri:0, instance:negativSqurtAdvance(AdvanceTest.AdvanceTest)]" name="negativSqurtAdvance" duration-ms="7" started-at="2017-12-14T11:32:31Z" finished-at="2017-12-14T11:32:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativSqurtAdvance -->
+      </class> <!-- AdvanceTest.AdvanceTest -->
+      <class name="SimpleTest.SimpleTest">
+        <test-method status="PASS" signature="positivAddtionTest()[pri:0, instance:positivAddtionTest(SimpleTest.SimpleTest)]" name="positivAddtionTest" duration-ms="6" started-at="2017-12-14T11:32:31Z" finished-at="2017-12-14T11:32:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positivAddtionTest -->
+        <test-method status="PASS" signature="positivMultTest()[pri:0, instance:positivMultTest(SimpleTest.SimpleTest)]" name="positivMultTest" duration-ms="6" started-at="2017-12-14T11:32:31Z" finished-at="2017-12-14T11:32:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positivMultTest -->
+        <test-method status="PASS" signature="negativMultTest()[pri:0, instance:negativMultTest(SimpleTest.SimpleTest)]" name="negativMultTest" duration-ms="5" started-at="2017-12-14T11:32:31Z" finished-at="2017-12-14T11:32:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativMultTest -->
+        <test-method status="PASS" signature="negativDivTest()[pri:0, instance:negativDivTest(SimpleTest.SimpleTest)]" name="negativDivTest" duration-ms="5" started-at="2017-12-14T11:32:31Z" finished-at="2017-12-14T11:32:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativDivTest -->
+        <test-method status="PASS" signature="positivSubtratctioTest()[pri:0, instance:positivSubtratctioTest(SimpleTest.SimpleTest)]" name="positivSubtratctioTest" duration-ms="6" started-at="2017-12-14T11:32:31Z" finished-at="2017-12-14T11:32:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positivSubtratctioTest -->
+        <test-method status="PASS" signature="positivDivTest()[pri:0, instance:positivDivTest(SimpleTest.SimpleTest)]" name="positivDivTest" duration-ms="6" started-at="2017-12-14T11:32:31Z" finished-at="2017-12-14T11:32:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positivDivTest -->
+        <test-method status="PASS" signature="positivDivByZero()[pri:0, instance:positivDivByZero(SimpleTest.SimpleTest)]" name="positivDivByZero" duration-ms="0" started-at="2017-12-14T11:32:31Z" finished-at="2017-12-14T11:32:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positivDivByZero -->
+        <test-method status="PASS" signature="negativSubtratctioTest()[pri:0, instance:negativSubtratctioTest(SimpleTest.SimpleTest)]" name="negativSubtratctioTest" duration-ms="6" started-at="2017-12-14T11:32:31Z" finished-at="2017-12-14T11:32:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativSubtratctioTest -->
+        <test-method status="PASS" signature="negativAddtionTest()[pri:0, instance:negativAddtionTest(SimpleTest.SimpleTest)]" name="negativAddtionTest" duration-ms="7" started-at="2017-12-14T11:32:31Z" finished-at="2017-12-14T11:32:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativAddtionTest -->
+      </class> <!-- SimpleTest.SimpleTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
